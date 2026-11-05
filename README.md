@@ -15,3 +15,10 @@ curl -fsSL https://get.pnpm.io/install.sh | sh -
 ```bash
 pnpm install
 ```
+
+## Команды
+
+| Команда | Что делает |
+|---|---|
+| `pnpm build` | Очищает `dist/` и собирает TypeScript из `src/` |
+| `pnpm start` | Запускает собранный код из `dist/` |
