@@ -4,6 +4,7 @@
   "private": true,
   "main": "dist/index.js",
   "scripts": {
+    "prepare": "lefthook install",
     "dev": "tsx watch src/index.ts",
     "build": "rm -rf dist && tsc",
     "start": "node dist/index.js",
@@ -27,6 +28,7 @@
   "devDependencies": {
     "@biomejs/biome": "2.6.4",
     "@types/node": "^26.6.6",
+    "lefthook": "^2.2.2",
     "tsx": "^4.23.15",
     "typescript": "^7.0.2"
   }
