@@ -43,6 +43,6 @@
 
     // Import Paths
     "allowImportingTsExtensions": true,
-    "rewriteRelativeImportExtensions": true,
+    "rewriteRelativeImportExtensions": true
   }
 }

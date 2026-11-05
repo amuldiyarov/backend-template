@@ -1,7 +1,7 @@
-import { hello } from "./hello.ts";
+import { hello } from './hello.ts';
 
 function main(): void {
-    console.log(hello('Antonio'))
+  console.log(hello('Antonio'));
 }
 
 void main();
