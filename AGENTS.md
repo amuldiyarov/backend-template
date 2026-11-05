@@ -8,3 +8,7 @@
 
 Не обходи git-хуки (`--no-verify`, `LEFTHOOK=0`). Если хук упал, исправь причину:
 `pnpm format` для форматирования, ошибки типов в коде.
+
+Сообщения коммитов в формате Conventional Commits: `type(scope): описание`.
+Типы: feat, fix, refactor, docs, test, build, ci, chore. Описание на английском,
+в нижнем регистре, без точки в конце. Проверяется хуком commit-msg.

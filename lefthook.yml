@@ -10,3 +10,8 @@ pre-push:
       run: pnpm check
     - name: typecheck
       run: pnpm exec tsc --noEmit
+
+commit-msg:
+  jobs:
+    - name: commitlint
+      run: pnpm exec commitlint --edit {1}
