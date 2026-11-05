@@ -10,6 +10,8 @@ pre-push:
       run: pnpm check
     - name: typecheck
       run: pnpm exec tsc --noEmit
+    - name: test
+      run: pnpm test
 
 commit-msg:
   jobs:
